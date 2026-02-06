@@ -33,22 +33,6 @@ This assistant helps with **concept explanations, coding support, and interview 
 
 ---
 
-## 📁 Project Structure
-study_ai_assistant/
-│
-├── app.py # Streamlit UI
-├── assistant.py # AI logic (prompt + model call)
-├── memory.py # Vector database (memory)
-├── interview.py 
-├── config.py 
-├── pdf_reader.py 
-├── prompts.py 
-├── requirements.txt # Dependencies
-├── README.md # Project documentation
-└── db/ # Auto-created vector storage
-
-
----
 
 ## 📖 How It Works (Workflow)
 
@@ -68,18 +52,7 @@ AI generates an accurate response
 
 Chat history is stored in session memory
 ---
-## 📸 Application Outputs
 
-### 💬 Chat Assistant
-![Chat Output](C:\Users\rutuj\OneDrive\Desktop\study_ai_assistant\images\chat_output.png)
-
-### 🎯 Interview Mock Mode
-![Interview Mode](C:\Users\rutuj\OneDrive\Desktop\study_ai_assistant\images\interview.png)
-
-### 📄 PDF-based Answering
-![PDF Answer](C:\Users\rutuj\OneDrive\Desktop\study_ai_assistant\images\pdf_answer.png)
-
----
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Install Ollama
